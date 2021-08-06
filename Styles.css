@@ -93,7 +93,7 @@
   background-size: 20px 20px;    
   background-position:1% 0, 1% 0, 10% -25%, 0 30%;
   border: dashed;
-  border-color: white;
+  border-color: yellow;
   border-width: .5px;
   border-radius: 55% 45% 195% 0%;
  }
@@ -126,6 +126,8 @@
 
 
  #shape2round {
+	 
+	animation: fadeIn 2s infinite;
    width: 70px;
    height: 190px;
    margin-right: -5%;
@@ -145,19 +147,19 @@
   background-size: 20px 20px;    
   background-position:1% 10%, 1% 0, 10% -45%, 0 80%;
   border: dashed;
-  border-color: white;
+  border-color: purple;
   border-radius: 19% 45% 19% 55%;
  }
 
 
- #shape3round {
-   width: 390px;
-   height: 390px;
-   margin-right: -25%;
+ #shape3round { 
+   width: 90px;
+   height: 90px;
+   margin-right: -5%;
    float: right;
    margin-top: -15%;
-   position: behind;
-   opacity: 1;
+   position:unset;
+   opacity: .8;
   background-image:
   linear-gradient(45deg, #808080 15%, transparent 5%), 
   linear-gradient(-45deg, #808080 10%, transparent 0%),
@@ -170,13 +172,15 @@
   background-size: 20px 20px;    
   background-position:1% 10%, 1% 0, 10% -45%, 0 80%;
   border: dashed;
-  border-color: white;
+  border-color: purple;
    border-width: 1px;
-  border-radius: 19% 45% 1% 55%;
+  border-radius: 19% 80% 1% 55%;
  }
 
 
  #shape4round {
+
+	animation: fadeIn 2s infinite;
    width: 39px;
    height: 39px;
    margin-right: -25%;
@@ -214,7 +218,7 @@
   background-size: 20px 20px;    
   background-position:1% 10%, 1% 0, 10% -45%, 0 80%;
   border: dashed;
-  border-color: white;
+  border-color: yellow;
   border-width: 4px;
   border-radius: 19% 45% 19% 55%;
  }
@@ -232,7 +236,7 @@
    opacity: 1;
   background-image:
   linear-gradient(45deg, #808080 15%, transparent 5%), 
-  linear-gradient(-45deg, #808080 10%, transparent 0%),
+  linear-gradient(-45deg, white 10%, transparent 0%),
   linear-gradient(45deg, transparent 65%, #808080 5%),
   linear-gradient(15deg, yellow 15%, transparent 75%), 
   linear-gradient(195deg, purple 55%, transparent 10%),   
@@ -242,7 +246,7 @@
   background-size: 20px 20px;    
   background-position:1% 10%, 1% 0, 10% -45%, 0 80%;
   border: dashed;
-  border-color: white;
+  border-color: purple;
   border-width: 4px;
   border-radius: 19% 45% 19% 55%;
  }
@@ -290,7 +294,7 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,253,0.8
   background-size: 20px 20px;    
   background-position:1% 0, 1% 0, 10% -25%, 0 30%;
   border: dashed;
-  border-color: white;
+  border-color: purple;
   border-width: 5px;
   border-radius: 55% 45% 195% 0%;
  }
